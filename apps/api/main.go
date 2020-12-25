@@ -2,11 +2,12 @@ package main
 
 import "fmt"
 
+// Hello function
 func Hello(name string) string {
 	result := "Hello " + name
 	return result
 }
 
 func main() {
-	fmt.Println(Hello("api"))
+	fmt.Println(Hello("api test"))
 }

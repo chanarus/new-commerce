@@ -23,7 +23,10 @@
     "update": "nx migrate latest",
     "workspace-generator": "nx workspace-generator",
     "dep-graph": "nx dep-graph",
-    "help": "nx help"
+    "help": "nx help",
+    "web:dev": "npm run start web",
+    "admin:dev": "npm run start admin",
+    "api:dev": "cd ./apps/api && air"
   },
   "private": true,
   "dependencies": {
